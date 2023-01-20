@@ -23,7 +23,7 @@
 * ICA15
 
 # Weekly Assignments
-* [WA1] (https://lillymcnichols.github.io/wa/wa1.html)
+* [WA1](https://lillymcnichols.github.io/wa/wa1.html)
 * WA2
 * WA3
 * WA4
