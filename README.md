@@ -9,7 +9,7 @@
 * ICA1
 * ICA2
 * ICA3
-* ICA4
+* [ICA4](https://lillymcnichols.github.io/ica/ica4.html)
 * ICA5
 * ICA6
 * ICA7
