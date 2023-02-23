@@ -27,7 +27,7 @@
 * [WA2](https://lillymcnichols.github.io/wa/wa2.html)
 * [WA3](https://lillymcnichols.github.io/wa/wa3.html)
 * [WA4](https://lillymcnichols.github.io/wa/wa4.html)
-* WA5
+* [WA5](https://lillymcnichols.github.io/wa/wa6.html)
 * WA6
 * WA7
 * WA8
