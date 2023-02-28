@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: seashell;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New', monospace;
+    color:blue;
+}
+nav:hover{ 
+    background-color: blanchedalmond;
+}
+
+img{
+    width:30vw;
+    height: 30vh;
+    position: absolute;
+  animation: moveX 3s linear 0s infinite alternate, moveY 5.3s linear 0s infinite alternate;
+}
+
+#blue-ball{
+    background-color: lightblue;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:0;
+}
+
+h1{
+    font-family: 'Courier New', monospace;
+    color:whitesmoke;
+}
+
+  @keyframes moveX {
+    from { left: 0; } to { left: 1000px;}
+    }
+ 
+  @keyframes moveY {
+    from { top: 0; } to { top: 750px; }
+    }
+  
+
+  
