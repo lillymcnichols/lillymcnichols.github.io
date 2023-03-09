@@ -1,20 +1,5 @@
-nav{
-    height: 50vh;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height:20px;
-    background-color: seashell;
-}
-nav a{
-    width:10vw;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Courier New', monospace;
-    color:black;
-}
-nav:hover{ 
-    background-color: blanchedalmond;
+body{
+    background-color: whitesmoke;
 }
 
 h1{
