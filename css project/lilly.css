@@ -1,0 +1,12 @@
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: seashell;
+}
+
+h1{
+    text-align: center;
+}
