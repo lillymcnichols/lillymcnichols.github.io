@@ -6,6 +6,16 @@ nav{
     height:20px;
     background-color: seashell;
 }
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New', monospace;
+    color:blue;
+}
+nav:hover{ 
+    background-color: blanchedalmond;
+}
 
 h1{
     text-align: center;
