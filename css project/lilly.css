@@ -1,23 +1,24 @@
-body{
+body {
     background-color: floralwhite;
 }
 
-h1{
+h1 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:dimgray;
 }
-
-.center {
-    display: block;
-    text-align: left; 
-    vertical-align: center;
-    width: 25%;
-  }
-
-  h2{
+  h2 {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
     color: dimgray;
 
+}
+
+.photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 1px;
 }
