@@ -5,11 +5,12 @@ body{
 h1{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:lavenderblush;
+    color:dimgray;
 }
 
 .center {
     display: block;
-    text-align: left;
+    text-align: left; 
+    vertical-align: center;
     width: 25%;
   }
