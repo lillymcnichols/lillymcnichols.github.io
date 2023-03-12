@@ -49,3 +49,10 @@ body {
     float: left;
     
 }
+
+h1{
+  padding:50px;
+  font-size: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font: bold;
+}

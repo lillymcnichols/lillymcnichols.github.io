@@ -48,3 +48,9 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font: bold;
   }
+
+  .Resume-img{
+    size:75px;
+    text-align:center;
+    padding:10px;
+  }
