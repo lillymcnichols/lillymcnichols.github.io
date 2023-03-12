@@ -68,6 +68,14 @@ body {
       float: left;
       
   }
+  
+  h1{
+    padding:5px;
+  }
+
+  h2{
+    padding:5px;
+  }
 
   @media only screen and (max-width:500px) {
    .grid{
