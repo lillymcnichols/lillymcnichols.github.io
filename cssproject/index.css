@@ -98,5 +98,12 @@ body {
   margin-right: auto;
   width: 50%;
 }
+
+.headshot{
+  display:block;
+  margin-right:auto;
+  padding-left: 50px;
+  width:200px;
+}
   
 
