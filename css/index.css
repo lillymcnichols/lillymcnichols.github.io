@@ -88,13 +88,22 @@ body {
   
   .headshot{
     display:block;
+    float:left;
     margin-right:auto;
     padding-left: 50px;
+    padding-right: 50px;
     width:200px;
   }
-    
 
-
+  .socials{
+    text-align: left;
+    font-size: 100%;
+  }
+ 
+  .mail{
+    color:indigo;
+  }
+  
   @media only screen and (max-width:500px) {
    .grid{
     flex-direction: column;
@@ -106,6 +115,7 @@ body {
     grid-template-columns: 350px;
    }
 }
+
 
 
   
