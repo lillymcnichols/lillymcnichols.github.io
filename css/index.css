@@ -72,6 +72,28 @@ body {
     font: bold;
   }
 
+  .hobbies{
+    font: 0.9em / 0.9 'Times New Roman', serif;
+    line-height: 2;
+    margin-left: 30px;
+  }
+  
+  .Resume-img{
+    size:75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .headshot{
+    display:block;
+    margin-right:auto;
+    padding-left: 50px;
+    width:200px;
+  }
+    
+
 
   @media only screen and (max-width:500px) {
    .grid{
@@ -85,25 +107,6 @@ body {
    }
 }
 
-.hobbies{
-  font: 0.9em / 0.9 'Times New Roman', serif;
-  line-height: 2;
-  margin-left: 30px;
-}
 
-.Resume-img{
-  size:75px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.headshot{
-  display:block;
-  margin-right:auto;
-  padding-left: 50px;
-  width:200px;
-}
   
 
