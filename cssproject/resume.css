@@ -51,6 +51,8 @@ body {
 
   .Resume-img{
     size:75px;
-    text-align:center;
-    padding:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
