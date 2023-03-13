@@ -120,6 +120,20 @@ body {
    .photos{
     grid-template-columns: 350px;
    }
+   .Resume-img{
+    size:500px;
+    width:90%;
+   }
+   .socials{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+   }
+   .headshot{
+    width: 100px;
+   }
+ 
 }
 
 
