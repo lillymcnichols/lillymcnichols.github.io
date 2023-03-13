@@ -63,7 +63,7 @@ body {
   
   .photos {
     list-style: none;
-    padding-top: 5px;
+    padding-bottom:10px;
     display: grid;
     grid-template-columns: 200px 200px;
     width:auto;
