@@ -111,7 +111,33 @@ body {
     color:indigo;
   }
   
-  @media only screen and (max-width:500px) {
+  @media only screen and (max-width:400px) {
+   .grid{
+    flex-direction: column;
+   }
+   nav ul{
+    flex-direction: column;
+   }
+   .photos{
+    grid-template-columns: 280px;
+   }
+   .Resume-img{
+    size:400px;
+    width:90%;
+   }
+   .socials{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 96px;
+   }
+   .headshot{
+    width: 115px;
+   }
+ 
+}
+
+@media only screen and (max-width:500px) {
    .grid{
     flex-direction: column;
    }
