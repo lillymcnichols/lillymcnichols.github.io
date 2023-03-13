@@ -130,6 +130,7 @@ body {
     display: inline-block;
     text-align: center;
     width: 80px;
+    padding:10px;
    }
    .headshot{
     width: 90px;
@@ -155,7 +156,7 @@ body {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 75px;
+    width: 120px;
    }
    .headshot{
     width: 115px;
