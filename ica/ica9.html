@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/ica9.css" rel="stylesheet">
+    <title>Javascript Fun!</title>
+
+</head>
+<body>
+    <h1 id="demo" onclick="myFunction()">Click me to see what color I change to!</h1>
+
+    <h2>While you're here guess a number 1-10 below.</h2>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").style.color = "purple";
+}
+</script>
+
+<div class="form">
+    <label for="guessField">Enter a guess: </label>
+    <input type = "text" 
+             id = "guessField" 
+           class = "guessField">
+    <input type = "submit" 
+           value = "Submit guess" 
+           class = "guessSubmit" 
+           id = "submitguess">
+</div>
+
+<script type = "text/javascript">
+
+  // random value generated
+  var y = Math.floor(Math.random() * 10 + 1);
+
+  // counting the number of guesses
+  // made for correct Guess
+  var guess = 1;
+
+  document.getElementById("submitguess").onclick = function(){
+
+    // number guessed by user    
+      var x = document.getElementById("guessField").value;
+
+      if(x == y)
+      {    
+        alert("CONGRATULATIONS!!! You guess it correctly in "
+              + guess + " GUESS ");
+      }
+      else if(x > y) /* if guessed number is greater than actual number*/
+      {    
+        guess++;
+        alert("Try again! Hint: smaller number");
+      }
+      else
+      {
+        guess++;
+        alert("Try again! Hint:larger number")
+      }
+  }
+</script>
+
+  
+</body>
+</html>
