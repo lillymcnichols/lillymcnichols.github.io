@@ -1,0 +1,30 @@
+body {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    width: 350px;
+    text-align:center;
+    background:lightblue;
+  }
+
+  label {
+    font-weight: bold;  
+  }
+
+  div {
+    padding-bottom: 20px;
+    padding-top:10px;
+  }
+
+  input[type="text"] {
+    padding: 5px;
+    width: 150px;
+  }
+
+  p {
+    background: white;
+    color: black;
+    padding: 10px;
+    visibility: hidden;
+  }
+  .randomize{
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  }
