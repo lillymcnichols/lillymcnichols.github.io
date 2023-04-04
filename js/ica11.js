@@ -15,6 +15,10 @@ async function getQuote() {
         //console.log(json.question);
         displayQuote(json.question)
     }
+    catch (err) {
+        console.log(err);
+        alert('Failed to fetch new trivia')
+    }
 }
 
 function displayQuote(quote){
