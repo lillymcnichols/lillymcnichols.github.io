@@ -7,4 +7,3 @@ var sliderOutput = document.querySelector(".slider-output");
 function update() {
   sliderOutput.textContent = slider.value;
 }
-
