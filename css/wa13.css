@@ -1,5 +1,9 @@
+body{
+    background-color: lightgrey;
+}
+
 #slidecontainer{
-   
+    background-color: lightgrey;
     width: 20px;
     height:20px; 
     border-radius: 50%;
