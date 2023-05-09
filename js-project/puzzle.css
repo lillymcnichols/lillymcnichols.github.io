@@ -1,0 +1,88 @@
+body {
+  font-size: 32px;
+  padding: 11.2px;
+  background-color: white;
+  font-family: Sans-Serif;
+  box-sizing: border-box;
+}
+
+  @media screen and (max-width: 600px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  ol, ul {
+      list-style: none;
+  }
+
+  .TileImage {
+    width: 108px;
+    height: 108px;
+  }
+
+  .SlidingPuzzle {
+    width: 336px;
+    height: 336px;
+    border-color: black;
+    border-radius: 4.8px;
+    padding: 8px;
+    display: grid;
+    background: black;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 0.001px;
+    text-align: center;
+    margin: auto
+  }
+  
+ .Tile {
+    background: white;
+    border-top: 4.8px solid #ccc;
+    border-left: 4.8px solid #ccc;
+    border-right: 4.8px solid #787878;
+    border-bottom: 4.8px solid #787878;
+    padding: 20% 3.2px;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .moves {
+    font-size: 12.8px;
+    margin: 16px 8px 16px 16px;
+    background: purple;
+    padding: 9.6px 12.8px;
+    color: white;
+    border-radius: 4.8px;
+    white-space: nowrap;
+  }
+
+  #movesnum {
+    background: white;
+    padding: 3.2px 8px;
+    color: black;
+    border-radius: 4.8px;
+    font-weight: bold;
+  }
+
+  button {
+    font-size: 12.8px;
+    margin: 8px;
+    padding: 8px 12.8px;
+    color: #333;
+    border-radius: 4.8px;
+    white-space: nowrap;
+  }
+  
+  @media screen and (max-width: 600px) {
+    section {flex-direction: column;}
+    .moves {margin: 16px 0 8px 0;}
+  }
+  
