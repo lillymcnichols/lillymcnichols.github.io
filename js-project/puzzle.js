@@ -1,8 +1,8 @@
 
-var movesNum; // number of moves initiated by user
-var movescell = document.getElementById("movesnum"); // where # of moves are displayed
+var movesNum; 
+var movescell = document.getElementById("movesnum"); 
 
-// tiles DOM objects
+
 var tile1 = document.getElementsByName("Tile Tile1")[0];
 var tile2 = document.getElementsByName("Tile Tile2")[0];
 var tile3 = document.getElementsByName("Tile Tile3")[0];
@@ -12,30 +12,27 @@ var tile6 = document.getElementsByName("Tile Tile6")[0];
 var tile7 = document.getElementsByName("Tile Tile7")[0];
 var tile8 = document.getElementsByName("Tile Tile8")[0];
 
-// Assigning the positions of tiles.
+
 var emptyRow, emptyCol;
-// Run the option you need below:
-//------------------------------------------------------
-// Option 1. Random initial positions
+
 var randomizePuzzle = function() {
   movesNum = 0;
-  movescell.innerHTML = movesNum; // update # of moves displayed
-  [emptyRow, emptyCol] = [2, 2]; // position of the empty cell
-  var positions = [ [1,1], [1,2], [1,3], [2,1], [2,3], [3,1], [3,2], [3,3] ]; // [2,2] is center, it's not in this array, and will be empty cell
+  movescell.innerHTML = movesNum; 
+  [emptyRow, emptyCol] = [2, 2]; 
+  var positions = [ [1,1], [1,2], [1,3], [2,1], [2,3], [3,1], [3,2], [3,3] ]; 
   var tiles = [tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8];
   for (let i=7; i>=0; i--) {
-    let r = Math.round(Math.random() * i); // random integer from 0 to i
-    let poppedPos = positions.splice(r, 1); // removes an element from "positions" array at "r" position
+    let r = Math.round(Math.random() * i); 
+    let poppedPos = positions.splice(r, 1); 
     tiles[i].style.gridRow = poppedPos[0][0];
     tiles[i].style.gridColumn = poppedPos[0][1];
   }
 }
-//------------------------------------------------------
-// Option 2. Ordered initial positions (a solved puzzle)
+
 var solvePuzzle = function() {
   movesNum = 0;
-  movescell.innerHTML = movesNum; // update # of moves displayed
-  [emptyRow, emptyCol] = [3, 3]; // position of the empty cell
+  movescell.innerHTML = movesNum; 
+  [emptyRow, emptyCol] = [3, 3]; 
   tile1.style.gridRow = 1;
   tile1.style.gridColumn = 1;
   tile2.style.gridRow = 1;
@@ -53,28 +50,28 @@ var solvePuzzle = function() {
   tile8.style.gridRow = 3;
   tile8.style.gridColumn = 2;
 }
-//------------------------------------------------------
+
 
 var moveTile = function() {
   thisRow = this.style.gridRow.charAt(0);
   thisCol = this.style.gridColumn.charAt(0);
-  //console.log("thisRow: "+thisRow+", thisCol: "+thisCol+", emptyRow: "+emptyRow+", emptyCol: "+emptyCol);
+  
   if (emptyRow == thisRow) {
     if (parseInt(thisCol)+1 == emptyCol || parseInt(thisCol)-1 == emptyCol) {
-      let tmpCol = thisCol; // current block scope variable
-      this.style.gridColumn = emptyCol.toString(); // move it horizontally
+      let tmpCol = thisCol; 
+      this.style.gridColumn = emptyCol.toString(); 
       emptyCol = tmpCol;
       movesNum++;
     }
   } else if (emptyCol == thisCol) {
     if (parseInt(thisRow)+1 == emptyRow || parseInt(thisRow)-1 == emptyRow) {
-      let tmpRow = thisRow; // current block scope variable
-      this.style.gridRow = emptyRow.toString(); // move it vertically
+      let tmpRow = thisRow; 
+      this.style.gridRow = emptyRow.toString(); 
       emptyRow = tmpRow;
       movesNum++;
     }
   }
-  movescell.innerHTML = movesNum; // update # of moves displayed
+  movescell.innerHTML = movesNum; 
 }
 
 tile1.onclick = moveTile;
@@ -84,7 +81,7 @@ tile4.onclick = moveTile;
 tile5.onclick = moveTile;
 tile6.onclick = moveTile;
 tile7.onclick = moveTile;
-tile8.addEventListener("click", moveTile); // alternative way to write it
+tile8.addEventListener("click", moveTile); 
 
 document.getElementById("newgame").onclick = randomizePuzzle;
 document.getElementById("solveit").onclick = solvePuzzle;
