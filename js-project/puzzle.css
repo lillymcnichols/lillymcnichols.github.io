@@ -37,12 +37,7 @@ body {
   }
   
  .Tile {
-    background: white;
-    border-top: 4.8px solid #ccc;
-    border-left: 4.8px solid #ccc;
-    border-right: 4.8px solid #787878;
-    border-bottom: 4.8px solid #787878;
-    padding: 20% 3.2px;
+
     width: 64px;
     height: 64px;
     text-align: center;
@@ -66,7 +61,7 @@ body {
     white-space: nowrap;  
   }
 
-  #movesnum {
+  .movesnum {
     background: white;
     padding: 3.2px 8px;
     color: black;

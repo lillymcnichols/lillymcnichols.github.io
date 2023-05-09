@@ -3,14 +3,14 @@ var movesNum;
 var movescell = document.getElementById("movesnum"); 
 
 
-var tile1 = document.getElementsByName("Tile Tile1")[0];
-var tile2 = document.getElementsByName("Tile Tile2")[0];
-var tile3 = document.getElementsByName("Tile Tile3")[0];
-var tile4 = document.getElementsByName("Tile Tile4")[0];
-var tile5 = document.getElementsByName("Tile Tile5")[0];
-var tile6 = document.getElementsByName("Tile Tile6")[0];
-var tile7 = document.getElementsByName("Tile Tile7")[0];
-var tile8 = document.getElementsByName("Tile Tile8")[0];
+var tile1 = document.getElementsByClassName("Tile Tile1")[0];
+var tile2 = document.getElementsByClassName("Tile Tile2")[0];
+var tile3 = document.getElementsByClassName("Tile Tile3")[0];
+var tile4 = document.getElementsByClassName("Tile Tile4")[0];
+var tile5 = document.getElementsByClassName("Tile Tile5")[0];
+var tile6 = document.getElementsByClassName("Tile Tile6")[0];
+var tile7 = document.getElementsByClassName("Tile Tile7")[0];
+var tile8 = document.getElementsByClassName("Tile Tile8")[0];
 
 
 var emptyRow, emptyCol;
