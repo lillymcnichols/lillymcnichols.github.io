@@ -3,14 +3,14 @@ var movesNum; // number of moves initiated by user
 var movescell = document.getElementById("movesnum"); // where # of moves are displayed
 
 // tiles DOM objects
-var tile1 = document.getElementsById("Tile Tile1")[0];
-var tile2 = document.getElementsById("Tile Tile2")[0];
-var tile3 = document.getElementsById("Tile Tile3")[0];
-var tile4 = document.getElementsById("Tile Tile4")[0];
-var tile5 = document.getElementsById("Tile Tile5")[0];
-var tile6 = document.getElementsById("Tile Tile6")[0];
-var tile7 = document.getElementsById("Tile Tile7")[0];
-var tile8 = document.getElementsById("Tile Tile8")[0];
+var tile1 = document.getElementsByName("Tile Tile1")[0];
+var tile2 = document.getElementsByName("Tile Tile2")[0];
+var tile3 = document.getElementsByName("Tile Tile3")[0];
+var tile4 = document.getElementsByName("Tile Tile4")[0];
+var tile5 = document.getElementsByName("Tile Tile5")[0];
+var tile6 = document.getElementsByName("Tile Tile6")[0];
+var tile7 = document.getElementsByName("Tile Tile7")[0];
+var tile8 = document.getElementsByName("Tile Tile8")[0];
 
 // Assigning the positions of tiles.
 var emptyRow, emptyCol;
