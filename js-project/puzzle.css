@@ -7,9 +7,7 @@ body {
 }
 
   @media screen and (max-width: 600px) {
-    html {
-      font-size: 16px;
-    }
+    html {font-size: 16px;}
   }
   
   ol, ul {
@@ -76,7 +74,8 @@ body {
   }
   
   @media screen and (max-width: 600px) {
-    section {flex-direction: column;}
+    section {flex-direction: column;
+    padding-left: 0;}
     .moves {margin: 16px 0 8px 0;}
   }
   
