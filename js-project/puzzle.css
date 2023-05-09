@@ -52,6 +52,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-left: 515px;
+    padding-top: 10px;
   }
   
   .moves {
@@ -61,7 +63,7 @@ body {
     padding: 9.6px 12.8px;
     color: white;
     border-radius: 4.8px;
-    white-space: nowrap;
+    white-space: nowrap;  
   }
 
   #movesnum {
