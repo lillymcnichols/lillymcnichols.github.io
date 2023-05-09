@@ -1,8 +1,8 @@
 body {
   font-size: 32px;
   padding: 11.2px;
-  background-color: white;
-  font-family: Sans-Serif;
+  background-color: lightyellow;
+  font-family: "Comic Sans Ms";
   box-sizing: border-box;
 }
 
@@ -24,8 +24,6 @@ body {
   .SlidingPuzzle {
     width: 336px;
     height: 336px;
-    border-color: black;
-    border-radius: 4.8px;
     padding: 8px;
     display: grid;
     background: black;
@@ -37,7 +35,6 @@ body {
   }
   
  .Tile {
-
     width: 64px;
     height: 64px;
     text-align: center;
@@ -73,7 +70,7 @@ body {
     font-size: 12.8px;
     margin: 8px;
     padding: 8px 12.8px;
-    color: #333;
+    color: black;
     border-radius: 4.8px;
     white-space: nowrap;
   }
